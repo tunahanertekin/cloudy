@@ -25,4 +25,3 @@ The Battery and Regulators sub-section will cover the type of battery that your 
 8. [Wiring](/agv/electronics/wiring/):
 The Wiring sub-section will cover the wiring of all the electronic components of your robot. You will learn how to properly route wires and how to connect them to ensure that your robot's electronic systems are working correctly.
 
-We hope that this Electronics section of the documentation will be a valuable resource for anyone looking to build our open-source robot. Whether you are a seasoned maker or a beginner, we are confident that our detailed instructions will help you to build a robot that is both functional and reliable.
