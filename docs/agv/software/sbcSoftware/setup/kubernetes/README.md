@@ -1,5 +1,5 @@
 ## **Setup With Robolaunch Cloud Kubernetes**
-<img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://miro.medium.com/v2/resize:fit:668/0*p-ztLmQ1DFm5fAH_.png"/>
+<img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/kubernetes.png"/>
 
 * Download ubuntu 20.04 image for selected SBC, follow 3 steps to <a></a>
 

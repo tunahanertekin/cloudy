@@ -1,4 +1,4 @@
-![](https://micro.ros.org/img/micro-ROS_big_logo.png)
+![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/micro-ROS_big_logo.png)
 
 **Microcontroller Setup**
 

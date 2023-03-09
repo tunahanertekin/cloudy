@@ -1,4 +1,4 @@
-![](https://automaticaddison.com/wp-content/uploads/2021/09/4-launch-basic-mobile-robot-v5-2.jpg)
+![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/nav_map.jpg)
 
 ## Navigation
 

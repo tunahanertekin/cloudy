@@ -1,4 +1,4 @@
-![](https://opengraph.githubassets.com/89590d0d2fa4b5f15a286a6c74febd00c742301936b674b9dfcbc906f92b7eae/ros-controls/ros2_control)
+![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/ros2_control.png)
 
 https://control.ros.org/master/doc/ros2_controllers/diff_drive_controller/doc/userdoc.html
 

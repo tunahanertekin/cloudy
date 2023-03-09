@@ -1,4 +1,6 @@
 # Physical Robot
+
+![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/panel.jpg)
 ## SSH
 
 Connect to the robot via ssh and launch the sensor nodes: (password: robolaunch)

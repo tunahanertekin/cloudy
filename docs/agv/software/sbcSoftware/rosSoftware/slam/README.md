@@ -1,4 +1,4 @@
-![](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/media/rviz_slam.png)
+![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/rviz_slam.png)
 
 ## Slam
 

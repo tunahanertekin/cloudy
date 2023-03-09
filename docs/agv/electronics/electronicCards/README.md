@@ -1,12 +1,12 @@
 # Electronic Cards
 ## TCA9548A I2C Multiplexer 
 
-<img style="width:40%; margin-left:auto; margin-right:auto; display:block" src="https://cdn-learn.adafruit.com/guides/cropped_images/000/001/124/medium640/tcasmall.jpg?1515089926">
+<img style="width:40%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/multiplexer.jpg">
 
 A multiplexer is a system that selects one of more than one analog or digital data source and transmits this source to a single channel as output. A multiplexer divides a single high-speed communication circuit into several low-speed circuits, allowing several devices to take advantage of this circuit at the same time. There are many arduino sensors working with i2c, they are preferred in cloudy robot due to their wide variety, lack of cables and powerful features. Cloudy includes a multiplexer to use more than 1 of the same sensor, so you can easily connect as many same-different sensors as you want.  
 ## CNC Shield
 
-<img style="width:30%; margin-left:auto; margin-right:auto; display:block" src="https://www.direnc.net/arduino-uno-cnc-shield-3d-printer-parcalari-china-22203-95-B.jpg"/>
+<img style="width:30%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/cnc_shield.jpg"/>
 
 Cnc shield is produced as arduino uno shield and up to 4 stepper motor drivers can be connected. It facilitates the assembly and cooling of stepper motors, stepper adjustment and vref adjustment, eliminates 
 cable crowding, and protects it from voltage fluctuations with the capacitors on it. You can use the empty pins on it to wiring to the sensors. The connection pins of the sensors connected to the cloudy robot are as follows.

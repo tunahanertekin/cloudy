@@ -4,9 +4,9 @@
 
 The Cloudy robot is compact and hooded, making it important to have some basic hobby tools on hand for assembly. It is crucial to ensure that the wires are installed firmly and in an organized manner for optimal functionality and appearance of the robot."
 
-<img style="width:180px; height:180px; margin:30px;" src="https://productimages.hepsiburada.net/s/184/550/110000148856195.jpg/format:webp"/>
-<img style="width:180px; height:180px;  margin:30px;" src="https://www.robolinkmarket.com/montaj-kablosu-paketi-22awg-6x15m-cok-damarli-jumper-dupont-kablo-marxlow-6995-71-O.webp"/>
-<img style="width:180px; height:150px; margin-bottom:40px;" src="https://st.myideasoft.com/idea/jd/10/myassets/products/474/isiso-hs-700d-kablo-soyma-pensesi-perpaotomasyon.jpg?revision=1646898140"/>
+<img style="width:180px; height:180px; margin:30px;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/terminal_splicer.jpg"/>
+<img style="width:180px; height:180px;  margin:30px;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/colored_cable_5pcs.jpg"/>
+<img style="width:180px; height:150px; margin-bottom:40px;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/2.54_splicer.jpg"/>
 
 **Wiring Diagram**
 

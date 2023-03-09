@@ -50,14 +50,6 @@ By incorporating hardware accessories, you can expand the functionality of your 
 
 Cloudy has been designed to be easily upgradeable and expandable, so you can continue to develop it to meet your needs.
 
-### Dimensions
-
-## Video
-
-<iframe  height=600 width=800 src="https://www.youtube.com/watch?v=I4ivsS-1b_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
 **Powered by**
 
 ![logo](https://micro.ros.org/img/micro-ROS_big_logo.png ':size=20%')
