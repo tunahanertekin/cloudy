@@ -1,6 +1,5 @@
 ## I2C Muliplexer 
-
-![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/multiplexer.jpg)
+<img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/multiplexer.jpg"/>
 
 There are various sensors on Cloudy AGV and these sensors work with i2c protocol. Normally the use of sensors with the same i2c addresses is not supported. For this reason, by using the i2c multiplexer electronic card, it is possible to instantly connect to the desired sensor and perform the desired data receiving and sending data operation.
 
