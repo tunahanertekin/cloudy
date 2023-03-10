@@ -1,5 +1,0 @@
-
-
-### Single Board Computer Setup
-
-

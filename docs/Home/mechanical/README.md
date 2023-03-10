@@ -1,1 +1,0 @@
-Welcome to Mechanical Page (Write mechanical oveview in there)
