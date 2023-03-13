@@ -2,12 +2,12 @@
 
 **What you'll learn in this module**
 * What is ROS? How to use and develop.
-* Most Popular ROS2 command.
-* Why robolaunch prefer the ROS2
-* What is Cloud and why we need that on robotics application?
-* Robolaunch Cloud application examples
+* Why robolaunch prefers ROS 2?
+* Most Popular ROS2 commands.
+* What is Cloud and why we need it for robotics applications?
+* robolaunch cloud application examples.
 * What is micro-ros?    
-* Robolaunch Cloudy AGV applications
+* robolaunch Cloudy AGV applications.
  
 
 **Let's get started!**
