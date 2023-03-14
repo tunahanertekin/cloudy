@@ -1,4 +1,4 @@
-##  Oled Screen SSD1306 
+#  Oled Screen SSD1306 
 
 <img style="width:30%; margin-left:auto; margin-right:auto; display:block"  src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/ssd1306_oled_screen.jpg"/>
 

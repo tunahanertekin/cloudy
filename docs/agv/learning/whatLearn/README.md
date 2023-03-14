@@ -34,7 +34,7 @@ Here's a table comparing some of the key differences between ROS 1 and ROS 2:
 | Development process | Developed more informally by a large community of contributors. | Follows a more structured development process, with a designated development team and release schedule. |
 | Backward compatibility | Fully backward compatible. | Not fully backward compatible, some packages and code written for ROS 1 may need to be modified. |
 
-## Why robolaunch prefers ROS 2?
+## Why robolaunch Prefers ROS 2?
 There are several reasons why someone might choose (also we) ROS 2 over other robotics middleware frameworks or earlier versions of ROS. Here are a few of the main advantages of using ROS 2:
 
 - **Improved real-time performance:** ROS 2 has been designed with real-time performance in mind, making it a better choice for applications that require low latency and high determinism. ROS 2 uses a DDS (Data Distribution Service) middleware layer for communication, which allows for better control of message delivery and prioritization.
@@ -71,7 +71,7 @@ By enabling ROS on microcontrollers, Micro-ROS opens up new possibilities for ro
 
 <img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/micro-ROS_architecture.png">
 
-## What is Cloud and why we need it for robotics applications?
+## What is Cloud and Why We Need it for Robotics Applications?
 Cloud computing refers to the delivery of computing services over the internet, including storage, processing, and analysis of data. In cloud computing, users can access computing resources and services on-demand and pay for what they use, rather than having to maintain their own infrastructure.
 
 In the context of robotics applications, cloud computing offers several benefits:
@@ -88,7 +88,7 @@ In the context of robotics applications, cloud computing offers several benefits
 
 * **Data Analytics:** Cloud computing can provide powerful data analytics tools, allowing for more advanced analysis and insights into robot performance and behavior.
 
-## robolaunch cloud application examples
+## robolaunch Cloud Application Examples
 You get a unified, off-the-shelf solution to deploy, manage and automate your robots with robolaunch Platform. You can find some example applications you can create by using robolaunch's building blocks/features. 
 
 These applications are just to give some inspiration. There is no limit what you can create with robolaunch!

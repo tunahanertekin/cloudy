@@ -1,4 +1,4 @@
-## Flysky Ibus 
+# Flysky Ibus 
 
 <img style="width:30%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/flysky_ia6b.jpg"/>
 

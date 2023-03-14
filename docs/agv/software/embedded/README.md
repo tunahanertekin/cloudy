@@ -1,5 +1,4 @@
-## Embedded Software
-
+# Embedded Software
 
 * **Micro-ros:**
 Includes installing the embedded software environment, downloading the software, and sensor libraries.

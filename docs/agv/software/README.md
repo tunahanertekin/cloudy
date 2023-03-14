@@ -7,21 +7,20 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 </style>
-* **[Embedded Software:](/agv/software/embedded/)** 
+* [Embedded Software:](/agv/software/embedded/) 
 Cloudy AGV uses a microcontroller for motor driving, sensors and electronics supply. It transmits the data it receives and needs to send to the computer with the micro-ros protocol.
 
-* **[SBC (Single Board Computer) Software:](/agv/software/sbcSoftware/)**
+* [SBC (Single Board Computer) Software:](/agv/software/sbcSoftware/)
 Cloudy AGV robot is a ros2 robot and it needs a simple computer. When the computer power is insufficient, you can limit your robot's power by connecting it to the robolaunch cloud platform.
-* **[Simulation:](/agv/software/simulation/)**
+* [Simulation:](/agv/software/simulation/)
 You don't need to have one of them to use Cloudy AGV. You can perform operations such as teleoperation, slam, nav, waypoint follower via gazebo and rviz2.
 
-## Software Architecture
+## High Level Software Architecture
+Here is a high level architecture diagram of the Cloudy software. 
 
-#### High level
-Here is a high level architecture diagram of the Cloudy software. You can access and modify the block diagram from the [link](https://whimsical.com/LxtNBwNDTjNXYP3EHM6uqS)! 
-<img style="background-color:white!important" src="../../images/software_block_diagram.png" alt="detailedsoftwareblockdiagram">
+<img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/software_block_diagram.png?raw=true">
 
-#### Low level
-Here is a detailed architecture diagram of the Cloudy software. You can access and modify the detailed diagram from the [link](https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/DetailedSoftwareDiagram.drawio)! 
-<img style="background-color:white!important" src="../../images/DetailedSoftwareDiagram.drawio.png" alt="detailedsoftwareblockdiagram">
+## Low Level Software Architecture
+Here is a detailed architecture diagram of the Cloudy software. 
 
+<img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/DetailedSoftwareDiagram.drawio.png?raw=true">
