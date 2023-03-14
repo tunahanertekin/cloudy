@@ -1,14 +1,14 @@
 # Learning From Stratch
 
-**What you'll learn in this module**
-* What is ROS? How to use and develop.
+**Warming up: Essential Knowledge before Getting Started**
+* What is ROS? How to use and develop
+* ROS 1 vs. ROS 2
 * Why robolaunch prefers ROS 2?
-* Most Popular ROS2 commands.
+* Most Popular ROS2 commands
+* What is micro-ros?  
 * What is Cloud and why we need it for robotics applications?
-* robolaunch cloud application examples.
-* What is micro-ros?    
+* robolaunch cloud application examples
 * robolaunch Cloudy AGV applications.
- 
 
 **Let's get started!**
 * Overview

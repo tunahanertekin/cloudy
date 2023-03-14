@@ -1,11 +1,5 @@
-# What You Will Learn in This Module
+# Warming up: Essential Knowledge before Getting Started
 This section is designed to help users who are new to the world of robotics and ROS 2 to get started with the basics. We understand that getting started with robotics and ROS 2 can be intimidating, and that's why we've created this section to provide a gentle introduction to the fundamentals.
-
-In this section, we will cover the basics of robotics, including what is ROS, how it works, and the how to use it to make up a robot. We'll also introduce you to ROS 2, explaining what it is, why it's useful, and the key concepts you need to understand to get started.
-
-We'll start with the basics of programming, including the programming languages commonly used in robotics, and the concepts and tools you'll need to start writing your own programs. We'll then move on to the ROS 2 architecture, explaining how it's structured and the key concepts you need to understand to start building your own robotics applications.
-
-Throughout this section, we'll provide hands-on examples and exercises to help you apply what you've learned and build your own simple robotics applications. By the end of this section, you should have a solid understanding of the fundamentals of robotics and ROS 2, and be ready to start building your own robotics projects with confidence.
 
 Whether you're a student, hobbyist, or professional, this section is designed to provide a solid foundation for your journey into the exciting world of robotics and ROS 2. So let's get started!
 
@@ -24,6 +18,18 @@ Some of the key features of ROS include:
 
 - **Simulation tools:** ROS provides a number of simulation tools that enable developers to test their code in a virtual environment before deploying it on a physical robot.
 
+## ROS 1 vs. ROS 2
+Here's a table comparing some of the key differences between ROS 1 and ROS 2:
+| **Aspect** | **ROS 1** | **ROS 2** |
+| --- | --- | ----------- |
+| Real-time performance | Limited real-time performance capabilities. | Improved real-time performance. |
+| Distributed computing | Limited support for distributed computing. | Improved support for distributed computing. |
+| Language support | Supports C++ and Python primarily. | Supports C++, Python, and Java. |
+| Interoperability | Limited interoperability with other middleware platforms. | Designed to be more interoperable with other systems. |
+| Security | Limited security features. | Improved security features, such as authentication and encryption. |
+| Development process | Developed more informally by a large community of contributors. | Follows a more structured development process, with a designated development team and release schedule. |
+| Backward compatibility | Fully backward compatible. | Not fully backward compatible, some packages and code written for ROS 1 may need to be modified. |
+
 ## Why robolaunch prefers ROS 2?
 There are several reasons why someone might choose (also we) ROS 2 over other robotics middleware frameworks or earlier versions of ROS. Here are a few of the main advantages of using ROS 2:
 
@@ -38,33 +44,61 @@ There are several reasons why someone might choose (also we) ROS 2 over other ro
 - **Active development and community support:** ROS 2 is actively developed and maintained by the Open Robotics organization, with regular updates and new features being added. There is also a large and active community of developers and users who contribute to the development of new tools and packages, making it easy to find and use existing code for common robotic tasks.
 
 Overall, ROS 2 offers several significant improvements over earlier versions of ROS and other robotics middleware frameworks, making it a better choice for certain types of robotic applications.
-## Most Popular ROS2 commands
+## Most Popular ROS 2 commands
 When working with ROS 2, you will likely use a variety of commands to run nodes, view information about topics and nodes, set parameters, and more. Here are some of the most popular ROS 2 commands:
 
-| **Command** | **Action** | **Example Usage** |
-| --- | --- | ----------- |
-| `ros2core` | Fundamental command that initializes and manages core components of ROS system. It is typically the first command that you run when working with ROS, as it sets up the necessary communication infrastructure for ROS nodes to communicate with each other. |  |
-| `ros2run` | The command `ros2run` launches an executable from a package. Use ros2 run to run a ROS 2 node. `ros2run` makes it easy to run an executable in a package without having to specify the path to the executable. |  |
-| `ros2node` | Various node related sub-commands. Use `ros2node` to view information about ROS 2 nodes. `ros2node` allows you to list, get information about, and manage these nodes in your ROS 2 system. |  |
-| `ros2topic` | Various topic related sub-commands. Use `ros2topic` to view information about ROS 2 topics. It allows you to inspect the status of topics, view messages published on them, and publish messages to them.|  |
-| `ros2msg` | Various msg related sub-commands. Use `ros2msg` to view information about message types. It allows you to inspect the structure of a message and view its contents in a human-readable format. |  |
-| `ros2service` | Various service related sub-commands. `ros2service` provides a set of commands that allow you to interact with ROS 2 services in different ways, such as listing available services, calling a service with a request, or advertising a new service.|  |
-| `ros2param` | Various param related sub-commands. `ros2param` provides a set of commands that allow you to manage parameters in your ROS 2 system, such as getting the value of a parameter, setting a parameter value, or listing all the parameters that are currently available. |  |
-| `ros2service` | Various service related sub-commands. `ros2service` provides a set of commands that a provides a set of commands that allow you to interact with ROS 2 services in different ways, such as listing available services, calling a service with a request, or advertising a new service.  | |  |
+| **Command** | **Action** | 
+| --- | --- |
+| `ros2core` | Fundamental command that initializes and manages core components of ROS system. It is typically the first command that you run when working with ROS, as it sets up the necessary communication infrastructure for ROS nodes to communicate with each other. |
+| `ros2run` | The command `ros2run` launches an executable from a package. Use ros2 run to run a ROS 2 node. `ros2run` makes it easy to run an executable in a package without having to specify the path to the executable. |
+| `ros2node` | Various node related sub-commands. Use `ros2node` to view information about ROS 2 nodes. `ros2node` allows you to list, get information about, and manage these nodes in your ROS 2 system. |
+| `ros2topic` | Various topic related sub-commands. Use `ros2topic` to view information about ROS 2 topics. It allows you to inspect the status of topics, view messages published on them, and publish messages to them.|
+| `ros2msg` | Various msg related sub-commands. Use `ros2msg` to view information about message types. It allows you to inspect the structure of a message and view its contents in a human-readable format. |
+| `ros2service` | Various service related sub-commands. `ros2service` provides a set of commands that allow you to interact with ROS 2 services in different ways, such as listing available services, calling a service with a request, or advertising a new service.|
+| `ros2param` | Various param related sub-commands. `ros2param` provides a set of commands that allow you to manage parameters in your ROS 2 system, such as getting the value of a parameter, setting a parameter value, or listing all the parameters that are currently available. |
+| `ros2service` | Various service related sub-commands. `ros2service` provides a set of commands that a provides a set of commands that allow you to interact with ROS 2 services in different ways, such as listing available services, calling a service with a request, or advertising a new service.  | 
 
+## What is micro-ros?   
+[Micro-ROS](https://micro.ros.org/) is a project aimed at bringing the benefits of ROS to microcontrollers and other resource-constrained embedded systems. It provides a lightweight, real-time middleware that allows small embedded systems to communicate with ROS nodes, enabling distributed computing across various hardware platforms.
+
+Micro-ROS is designed to work on a variety of microcontrollers, including those with limited resources such as RAM and flash memory. It provides a way to abstract hardware and enables developers to write portable code that can be easily transferred between different embedded systems.
+
+By enabling ROS on microcontrollers, Micro-ROS opens up new possibilities for robotics and other embedded systems applications. It allows developers to create distributed systems that can handle complex tasks and interactions, and provides a way to easily integrate different hardware and software components into a single system.
+
+[!](https://micro.ros.org/img/micro-ROS_architecture.png)
 
 ## What is Cloud and why we need it for robotics applications?
+Cloud computing refers to the delivery of computing services over the internet, including storage, processing, and analysis of data. In cloud computing, users can access computing resources and services on-demand and pay for what they use, rather than having to maintain their own infrastructure.
 
+In the context of robotics applications, cloud computing offers several benefits:
+
+* **Scalability:** Cloud computing can provide access to vast amounts of computing power and storage, which is useful for applications that require large-scale processing or analysis of data.
+
+* **Collaboration:** Cloud computing enables easy storage and sharing of data among different robots and applications, facilitating collaboration and enabling more advanced applications.
+
+* **Remote Monitoring and Control:** Cloud computing enables remote monitoring and control of robots, allowing them to operate more efficiently and safely in hazardous or remote environments.
+
+* **Cost Savings:** Cloud computing can reduce costs and increase flexibility by allowing users to access computing resources on-demand and pay for what they use, rather than maintaining their own infrastructure.
+
+* **Real-time Processing:** Cloud computing can enable real-time processing of sensor data, allowing robots to make decisions and react quickly to changing conditions.
+
+* **Data Analytics:** Cloud computing can provide powerful data analytics tools, allowing for more advanced analysis and insights into robot performance and behavior.
 
 ## robolaunch cloud application examples
-
-
-## What is micro-ros?    
-
+![]() 
 
 ## robolaunch Cloudy AGV applications
+The [Cloudy](https://www.robolaunch.io/cloudy) robot paltform is a highly flexible and adaptable robot suitable for a wide range of users, including students, educators, hobbyists and professionals. It utilizes micro ROS, ROS 2, Nav 2, ROS 2 Control, NVIDIA, and if desired, [robolaunch Platform](https://www.robolaunch.io/platform), enabling a broad range of functionalities:
 
+* **Basics:** ROS learning
+* **Teleoperation:** robot remote control over robolaunch Platform
+* **Map Building:** make maps of environments for the robot to use
+* **Autonomous Path Planning and Navigation:** Cloudy moves autonomously around your lab, class or office
+* **Tele-Viewing:** see what your Cloudy robot sees over robolaunch Platform
+* **Simultaneous Localization and Mapping (SLAM):** Cloudy autonomously explores unknown places
+* **Computer Vision:** Cloudy recognizes objects in its environment and avoids obstacles
 
 ## References
 - https://www.ros.org/
 - https://www.openrobotics.org/
+- https://micro.ros.org/
