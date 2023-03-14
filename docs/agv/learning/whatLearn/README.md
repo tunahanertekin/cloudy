@@ -4,6 +4,8 @@ This section is designed to help users who are new to the world of robotics and 
 Whether you're a student, hobbyist, or professional, this section is designed to provide a solid foundation for your journey into the exciting world of robotics and ROS 2. So let's get started!
 
 ## What is ROS? How to use and develop?
+[!](https://github.com/robolaunch/cloudy/blob/docs/docs/images/ros-equation.png)
+
 [ROS (Robot Operating System)](https://www.ros.org/) is a popular open-source robotics middleware that provides a collection of software libraries, tools, and frameworks to help developers build complex robotics applications. It was first introduced in 2007 by the Willow Garage Robotics Research Institute and is now maintained by the [Open Robotics](https://www.openrobotics.org/) organization.
 
 ROS is designed to be a flexible and modular system that can be used with a wide range of robotic platforms and sensors. It provides a standardized framework for communicating between different software components in a robot's system, such as sensors, actuators, and controllers. ROS also includes a large and active community of developers who contribute to the development of new tools and packages, making it easy to find and use existing code for common robotic tasks.
@@ -20,8 +22,9 @@ Some of the key features of ROS include:
 
 ## ROS 1 vs. ROS 2
 Here's a table comparing some of the key differences between ROS 1 and ROS 2:
+
 | **Aspect** | **ROS 1** | **ROS 2** |
-| --- | --- | ----------- |
+| ----- | ----- | ----------- |
 | Real-time performance | Limited real-time performance capabilities. | Improved real-time performance. |
 | Distributed computing | Limited support for distributed computing. | Improved support for distributed computing. |
 | Language support | Supports C++ and Python primarily. | Supports C++, Python, and Java. |
@@ -65,7 +68,7 @@ Micro-ROS is designed to work on a variety of microcontrollers, including those 
 
 By enabling ROS on microcontrollers, Micro-ROS opens up new possibilities for robotics and other embedded systems applications. It allows developers to create distributed systems that can handle complex tasks and interactions, and provides a way to easily integrate different hardware and software components into a single system.
 
-[!](https://micro.ros.org/img/micro-ROS_architecture.png)
+[!](https://github.com/robolaunch/cloudy/blob/docs/docs/images/micro-ROS_architecture.png)
 
 ## What is Cloud and why we need it for robotics applications?
 Cloud computing refers to the delivery of computing services over the internet, including storage, processing, and analysis of data. In cloud computing, users can access computing resources and services on-demand and pay for what they use, rather than having to maintain their own infrastructure.
@@ -85,7 +88,7 @@ In the context of robotics applications, cloud computing offers several benefits
 * **Data Analytics:** Cloud computing can provide powerful data analytics tools, allowing for more advanced analysis and insights into robot performance and behavior.
 
 ## robolaunch cloud application examples
-![]() 
+![](https://github.com/robolaunch/cloudy/blob/docs/docs/images/robolaunch-applications.png) 
 
 ## robolaunch Cloudy AGV applications
 The [Cloudy](https://www.robolaunch.io/cloudy) robot paltform is a highly flexible and adaptable robot suitable for a wide range of users, including students, educators, hobbyists and professionals. It utilizes micro ROS, ROS 2, Nav 2, ROS 2 Control, NVIDIA, and if desired, [robolaunch Platform](https://www.robolaunch.io/platform), enabling a broad range of functionalities:
