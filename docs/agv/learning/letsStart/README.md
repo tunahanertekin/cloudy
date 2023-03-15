@@ -1,4 +1,4 @@
-# Let's Get Started!
+# Concepts
 Up to know, we've introduced some basic concepts about robotics, ROS, and ROS 2. In this part, we'll dive into ROS 2 essential concepts. 
 
 For more details make sure to check out the links given in each part.
