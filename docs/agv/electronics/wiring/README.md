@@ -2,7 +2,7 @@
 ## Cabling & Mounting
 **Tools for Cloudy Robot**
 
-The Cloudy robot is compact and hooded, making it important to have some basic hobby tools on hand for assembly. It is crucial to ensure that the wires are installed firmly and in an organized manner for optimal functionality and appearance of the robot."
+Cloudy Mini-AGV is compact and hooded, making it important to have some basic hobby tools on hand for assembly. It is crucial to ensure that the wires are installed firmly and in an organized manner for optimal functionality and appearance of the robot."
 
 <img style="width:180px; height:180px; margin:30px;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/terminal_splicer.jpg"/>
 <img style="width:180px; height:180px;  margin:30px;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/colored_cable_5pcs.jpg"/>
@@ -10,7 +10,7 @@ The Cloudy robot is compact and hooded, making it important to have some basic h
 
 **Wiring Diagram**
 
-See below for a wiring diagram of the Cloudy robot. You may find it useful to reference this during the assembly process.It can also download for <a href="#">fritzing file</a>
+See below for a wiring diagram of the Cloudy Mini-AGV. You may find it useful to reference this during the assembly process.It can also download for <a href="#">fritzing file</a>
 
 ?> This design created by Fritzing app <a>Download File</a>
 

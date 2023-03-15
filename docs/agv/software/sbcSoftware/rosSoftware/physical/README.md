@@ -35,7 +35,7 @@ After the change source the ros distro once again.
 ```bash
 source /opt/ros/humble/setup.bash
 ```
-## Launch Stereo Camere
+## Launch Stereo Camera
 Launch `realsense2_camera` and check the scan data:
 
 ```bash

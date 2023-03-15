@@ -4,7 +4,7 @@ A stereo camera closely copies how our eyes work to give us accurate, real-time 
 
 
 ## Robotics Applications using Stereo Camera
-Here some robotics applications that can be achieved using a Lidar and also with Cloudy AGV:
+Here some robotics applications that can be achieved using a Lidar and also with Cloudy Mini-AGV:
 * **Depth Perception and Obstacle Avoidance:** Stereo cameras can be used to create depth maps of the environment, which can be used to detect obstacles and plan safe paths through the environment. This is useful in applications such as autonomous vehicles, drones, and mobile robots.
 
 * **Object Recognition and Tracking:** Stereo cameras can be used to recognize and track objects in the environment. This is useful in applications such as industrial automation, where robots need to identify and track objects such as products on a conveyor belt.

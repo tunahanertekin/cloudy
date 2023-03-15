@@ -2,16 +2,16 @@
 
 <img style="width:40%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/neopixel_led.jpg" />
 
-Neopixel led have individual rgb control chip per every led, so you can change the color of each led individually. Cloudy AGV have headlight, blink led example and you can add more function.
+Neopixel led have individual rgb control chip per every led, so you can change the color of each led individually. Cloudy Mini-AGV have headlight, blink led example and you can add more function.
 
-For more info about neopixel leds check from https://learn.adafruit.com/adafruit-neopixel-uberguide
+For more info about neopixel leds please check [**here**](https://learn.adafruit.com/adafruit-neopixel-uberguide).
 
  ```/neopixel_led [Float8]``` Led is subscribed to this topic, and changes animation according to the sent numbers.
 
 ```0``` Park Mode, front bumper Leds turn white and rear is turn purple<br/>
 ```1``` Blink Mode, all leds blink for collision avoidance.
 
-example: ```ros2 topic pub /neopixel_led std_msgs/msg/Int8 data:\ 1\ ```
+Example: ```ros2 topic pub /neopixel_led std_msgs/msg/Int8 data:\ 1\ ```
 
 https://github.com/adafruit/Adafruit_NeoPixel
 

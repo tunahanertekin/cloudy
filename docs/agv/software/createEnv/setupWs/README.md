@@ -37,5 +37,5 @@ source  /opt/ros/$ROS_DISTRO/setup.bash
 colcon build && source install/setup.bash
 ```
 
-We have prepared the ROS2 workspace. There are several software packages in Cloudy Software stack. 
+We have prepared the ROS2 workspace. There are several software packages in Cloudy Mini-AGV Software stack. 
 For detailed explanation please check [**Software Packages**](/SoftwareDesign/Development%26Production/SoftwarePackages/) page.

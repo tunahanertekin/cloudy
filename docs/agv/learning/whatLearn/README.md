@@ -7,7 +7,7 @@ Whether you're a student, hobbyist, or professional, this section is designed to
 <img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/ros-equation.png">
 
 
-[ROS (Robot Operating System)](https://www.ros.org/) is a popular open-source robotics middleware that provides a collection of software libraries, tools, and frameworks to help developers build complex robotics applications. It was first introduced in 2007 by the Willow Garage Robotics Research Institute and is now maintained by the [Open Robotics](https://www.openrobotics.org/) organization.
+[**ROS (Robot Operating System)**](https://www.ros.org/) is a popular open-source robotics middleware that provides a collection of software libraries, tools, and frameworks to help developers build complex robotics applications. It was first introduced in 2007 by the Willow Garage Robotics Research Institute and is now maintained by the [**Open Robotics**](https://www.openrobotics.org/) organization.
 
 ROS is designed to be a flexible and modular system that can be used with a wide range of robotic platforms and sensors. It provides a standardized framework for communicating between different software components in a robot's system, such as sensors, actuators, and controllers. ROS also includes a large and active community of developers who contribute to the development of new tools and packages, making it easy to find and use existing code for common robotic tasks.
 
@@ -34,6 +34,15 @@ Here's a table comparing some of the key differences between ROS 1 and ROS 2:
 | Development process | Developed more informally by a large community of contributors. | Follows a more structured development process, with a designated development team and release schedule. |
 | Backward compatibility | Fully backward compatible. | Not fully backward compatible, some packages and code written for ROS 1 may need to be modified. |
 
+## ROS 2 Design
+
+<img src="https://raw.githubusercontent.com/robolaunch/cloudy-mini-agv/docs/docs/images/ros2-design.png">
+
+In the above figure you can see the layers that compose the design of ROS 2 as described in the book [**"A Concise Introduction to Robot Programming with ROS2"**](https://github.com/fmrico/book_ros2).
+
+The core of ROS2 is the communications layer, which uses the Data Distribution Service (DDS) middleware for real-time exchange of information between processes. ROS2 uses rclcpp and rclpy client libraries, which adapt the basic functionality of ROS2 to the particularities of C++ and Python programming languages. Both rclcpp and rclpy use rcl, which implements the basic functionality of all ROS2 elements. To simplify the rcl layer, an underlying layer called rmw has been implemented, which presents the rcl programmer with a unified API to access the functionality of each supported DDS implementation. ROS2 can use different DDS implementations, such as FastDDS and CycloneDDS, and selecting which DDS to use is trivial, requiring just modifying an environment variable.
+
+
 ## Why robolaunch Prefers ROS 2?
 There are several reasons why someone might choose (also we) ROS 2 over other robotics middleware frameworks or earlier versions of ROS. Here are a few of the main advantages of using ROS 2:
 
@@ -49,7 +58,9 @@ There are several reasons why someone might choose (also we) ROS 2 over other ro
 
 Overall, ROS 2 offers several significant improvements over earlier versions of ROS and other robotics middleware frameworks, making it a better choice for certain types of robotic applications.
 ## Most Popular ROS 2 commands
-When working with ROS 2, you will likely use a variety of commands to run nodes, view information about topics and nodes, set parameters, and more. Here are some of the most popular ROS 2 commands:
+When working with ROS 2, you will likely use a variety of commands to run nodes, view information about topics and nodes, set parameters, and more. 
+
+Here are some of the most popular ROS 2 commands and visit [**here**](https://github.com/ros2/ros2cli) for further reading:
 
 | **Command** | **Action** | 
 | --- | --- |
@@ -63,7 +74,7 @@ When working with ROS 2, you will likely use a variety of commands to run nodes,
 | `ros2service` | Various service related sub-commands. `ros2service` provides a set of commands that a provides a set of commands that allow you to interact with ROS 2 services in different ways, such as listing available services, calling a service with a request, or advertising a new service.  | 
 
 ## What is micro-ros?   
-[Micro-ROS](https://micro.ros.org/) is a project aimed at bringing the benefits of ROS to microcontrollers and other resource-constrained embedded systems. It provides a lightweight, real-time middleware that allows small embedded systems to communicate with ROS nodes, enabling distributed computing across various hardware platforms.
+[**Micro-ROS**](https://micro.ros.org/) is a project aimed at bringing the benefits of ROS to microcontrollers and other resource-constrained embedded systems. It provides a lightweight, real-time middleware that allows small embedded systems to communicate with ROS nodes, enabling distributed computing across various hardware platforms.
 
 Micro-ROS is designed to work on a variety of microcontrollers, including those with limited resources such as RAM and flash memory. It provides a way to abstract hardware and enables developers to write portable code that can be easily transferred between different embedded systems.
 
@@ -95,8 +106,8 @@ These applications are just to give some inspiration. There is no limit what you
 
 <img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/robolaunch-applications.png">
 
-## robolaunch Cloudy AGV applications
-The [Cloudy](https://www.robolaunch.io/cloudy) robot paltform is a highly flexible and adaptable robot suitable for a wide range of users, including students, educators, hobbyists and professionals. It utilizes micro ROS, ROS 2, Nav 2, ROS 2 Control, NVIDIA, and if desired, [robolaunch Platform](https://www.robolaunch.io/platform), enabling a broad range of functionalities:
+## robolaunch Cloudy Mini-AGV applications
+The [**Cloudy Mini-AGV**](https://www.robolaunch.io/cloudy) robot paltform is a highly flexible and adaptable robot suitable for a wide range of users, including students, educators, hobbyists and professionals. It utilizes micro ROS, ROS 2, Nav 2, ROS 2 Control, NVIDIA, and if desired, [**robolaunch Platform**](https://www.robolaunch.io/platform), enabling a broad range of functionalities:
 
 * **Basics:** ROS learning
 * **Teleoperation:** robot remote control over robolaunch Platform
@@ -110,3 +121,5 @@ The [Cloudy](https://www.robolaunch.io/cloudy) robot paltform is a highly flexib
 - https://www.ros.org/
 - https://www.openrobotics.org/
 - https://micro.ros.org/
+- [A Concise Introduction to Robot Programming with ROS2 by Francisco Martin Rico](https://github.com/fmrico/book_ros2)
+- https://github.com/ros2/ros2cli
