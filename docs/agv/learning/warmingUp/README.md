@@ -57,21 +57,6 @@ There are several reasons why someone might choose (also we) ROS 2 over other ro
 - **Active development and community support:** ROS 2 is actively developed and maintained by the Open Robotics organization, with regular updates and new features being added. There is also a large and active community of developers and users who contribute to the development of new tools and packages, making it easy to find and use existing code for common robotic tasks.
 
 Overall, ROS 2 offers several significant improvements over earlier versions of ROS and other robotics middleware frameworks, making it a better choice for certain types of robotic applications.
-## Most Popular ROS 2 commands
-When working with ROS 2, you will likely use a variety of commands to run nodes, view information about topics and nodes, set parameters, and more. 
-
-Here are some of the most popular ROS 2 commands and visit [**here**](https://github.com/ros2/ros2cli) for further reading:
-
-| **Command** | **Action** | 
-| --- | --- |
-| `ros2core` | Fundamental command that initializes and manages core components of ROS system. It is typically the first command that you run when working with ROS, as it sets up the necessary communication infrastructure for ROS nodes to communicate with each other. |
-| `ros2run` | The command `ros2run` launches an executable from a package. Use ros2 run to run a ROS 2 node. `ros2run` makes it easy to run an executable in a package without having to specify the path to the executable. |
-| `ros2node` | Various node related sub-commands. Use `ros2node` to view information about ROS 2 nodes. `ros2node` allows you to list, get information about, and manage these nodes in your ROS 2 system. |
-| `ros2topic` | Various topic related sub-commands. Use `ros2topic` to view information about ROS 2 topics. It allows you to inspect the status of topics, view messages published on them, and publish messages to them.|
-| `ros2msg` | Various msg related sub-commands. Use `ros2msg` to view information about message types. It allows you to inspect the structure of a message and view its contents in a human-readable format. |
-| `ros2service` | Various service related sub-commands. `ros2service` provides a set of commands that allow you to interact with ROS 2 services in different ways, such as listing available services, calling a service with a request, or advertising a new service.|
-| `ros2param` | Various param related sub-commands. `ros2param` provides a set of commands that allow you to manage parameters in your ROS 2 system, such as getting the value of a parameter, setting a parameter value, or listing all the parameters that are currently available. |
-| `ros2service` | Various service related sub-commands. `ros2service` provides a set of commands that a provides a set of commands that allow you to interact with ROS 2 services in different ways, such as listing available services, calling a service with a request, or advertising a new service.  | 
 
 ## What is micro-ros?   
 [**Micro-ROS**](https://micro.ros.org/) is a project aimed at bringing the benefits of ROS to microcontrollers and other resource-constrained embedded systems. It provides a lightweight, real-time middleware that allows small embedded systems to communicate with ROS nodes, enabling distributed computing across various hardware platforms.
