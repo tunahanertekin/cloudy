@@ -5,7 +5,7 @@
         - [Cloudy Mini-AGV Use Cases](/agv/learning/useCase/)
         - [Overview](/agv/learning/warmingUp/)
         - [ROS Concepts](/agv/learning/rosConcepts/)
-        - [ROS Tools](/agv/learning/rosTools)
+        - [ROS Tools](/agv/learning/rosTools/)
         - [ROS Tutorials](/agv/learning/rosTutorials/)
     - [Mechanical](/agv/mechanical/)
         - [BOM](/agv/mechanical/bomMechanical/)
